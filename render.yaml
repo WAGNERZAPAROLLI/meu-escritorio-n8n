@@ -10,6 +10,6 @@ services:
       - key: DB_TYPE
         value: postgresdb
       - key: DB_POSTGRESDB_URL
-        value: "postgresql://cara:opK36fkm1p6TQYx9FtlVNxVlbx179AuC@dpg-d5e0gsogjchc73c6mj2g-a/boot_2z9b"
+        value: 'postgresql://cara:opK36fkm1p6TQYx9FtlVNxVlbx179AuC@dpg-d5e0gsogjchc73c6mj2g-a/boot_2z9b'
       - key: N8N_ENCRYPTION_KEY
-        value: "chave-segura-129"
+        value: 'chave-segura-129'
