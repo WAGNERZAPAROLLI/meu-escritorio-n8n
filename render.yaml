@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: n8n-final
+    runtime: image
+    image:
+      url: docker.io/n8nio/n8n:latest
+    region: virginia
+    plan: free
+    envVars:
+      - key: DB_TYPE
+        value: postgresdb
+      - key: DB_POSTGRESDB_URL
+        value: COLOQUE_AQUI_SEU_LINK_INTERNO
+      - key: N8N_ENCRYPTION_KEY
+        value:postgresql://cara:opK36fkm1p6TQYx9FtlVNxVlbx179AuC@dpg-d5e0gsogjchc73c6mj2g-a/boot_2z9b
